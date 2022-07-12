@@ -47,7 +47,7 @@ playlist-sync sync
 2. Open the terminal and type `pip install playlist-sync`
 3. Run the command `playlist-sync init` from your music directory (where you would like playlists to be downloaded). It will create two json files, `config.json` and `playlists.json`, in the same folder.
 4. Fill the two json files as described [here](https://github.com/lilianmallardeau/playlist-sync/wiki/The-config.json-file) and [here](https://github.com/lilianmallardeau/playlist-sync/wiki/The-playlists.json-file).
-5. To download/update your playlists, simply run the `playlist-sync sync` command in the same music directory where `config.json` and `playlists.json` exist.
+5. To download/update your playlists, simply run the `playlist-sync sync` command in the same music directory where `config.json` and `playlists.json` are located.
 
 
 ---
