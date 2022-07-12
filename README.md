@@ -49,6 +49,9 @@ playlist-sync sync
 4. Fill the two json files as described [here](https://github.com/lilianmallardeau/playlist-sync/wiki/The-config.json-file) and [here](https://github.com/lilianmallardeau/playlist-sync/wiki/The-playlists.json-file).
 5. To download/update your playlists, simply run the `playlist-sync sync` command in the same music directory where `config.json` and `playlists.json` exist.
 
+
+---
+
 ## Todo
 - Add support for SoundCloud and YouTube playlists, with [youtube-dl](http://ytdl-org.github.io/youtube-dl/)
 - Sync Serato/rekordbox crates with downloaded playlists
