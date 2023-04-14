@@ -63,7 +63,7 @@ DEFAULT_CONFIG = {
     "genre": True,
     "year": True,
     "date": True,
-    "explicit": False,
+    "explicit": True,
     "isrc": True,
     "length": True,
     "barcode": True,
