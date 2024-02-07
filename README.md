@@ -10,11 +10,19 @@ It uses [`deemix`](https://pypi.org/project/deemix/) under the hood to actually 
 - A Spotify account if you want to download playlists from Spotify.
 
 ## Installation
-Playlist-sync can be installed with `pip` from [PyPI](https://pypi.org/project/playlist-sync/):
+Playlist-sync can be installed from [PyPI](https://pypi.org/project/playlist-sync/) with [`pipx`](https://pipx.pypa.io/):
 ```
-pip install playlist-sync
+pipx install playlist-sync
 ```
-The pip package adds the `playlist-sync` command to the command line.
+`pipx` can be installed with `pip` if you don't have it installed:
+```
+pip install pipx
+pipx ensurepath
+```
+
+playlist-sync can also be installed directly with pip, but pipx is recommanded for command-line applications since it creates an isolated environment for each application and its associated packages.
+
+The package adds the `playlist-sync` command to the command line.
 
 ## How to setup and use
 Playlist-sync relies on two files, `config.json` and `playlists.json`, which must exist in the current working directory. `config.json` contains some general settings (Deezer ARL, Spotify API token, bitrate...), and `playlists.json` contains the links to your playlists as well as the target folders where you want them to be downloaded.
